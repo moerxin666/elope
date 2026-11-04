@@ -1,3 +1,20 @@
+Package: com.niceios.nicehelper-roothide
+Architecture: iphoneos-arm64e
+Version: 6.9-9
+Maintainer: niceios
+Installed-Size: 2540
+Filename: debs/com.niceios.nicehelper-roothide_6.9-9_iphoneos-arm64e.deb
+Size: 734740
+MD5sum: 011ff4cdd7857ed8bf6a7e88cc9886e4
+SHA1: 5940869a4d96ac85a0064f02d2dda3ae0e926a58
+SHA256: ccd38ca0ea8a0d1f94ab97ab261bfedf703f818b8cec4ac67f0b49d83af40ff4
+SHA512: 61b246daac71b41a84c316aed0f627fc1549d7d7e2b1b85d1c35690dab2e75db76f357a222878ced1fb6229418bcc912db25469f6893d841701fd4e5b645a2d1
+Section: 依赖
+Description: nice插件依赖组件.
+Name: NiceHelper【Roothide】
+Author: niceios
+Sponsor: niceios
+
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64e
 Version: 1.0.11
@@ -608,23 +625,6 @@ SHA512: ba0a04682e24366045621cd760988aa9b09b33eaf653461c9ec78ca8c898368c635a4210
 Section: 插件
 Description: 状态栏插件.
 Name: NiceBarX(iOS15)【Roothide】
-Author: niceios
-Sponsor: niceios
-
-Package: com.niceios.nicehelper-roothide
-Architecture: iphoneos-arm64e
-Version: 6.9-9
-Maintainer: niceios
-Installed-Size: 2540
-Filename: debs/com.niceios.nicehelper-roothide_6.9-9_iphoneos-arm64e.deb
-Size: 734740
-MD5sum: 011ff4cdd7857ed8bf6a7e88cc9886e4
-SHA1: 5940869a4d96ac85a0064f02d2dda3ae0e926a58
-SHA256: ccd38ca0ea8a0d1f94ab97ab261bfedf703f818b8cec4ac67f0b49d83af40ff4
-SHA512: 61b246daac71b41a84c316aed0f627fc1549d7d7e2b1b85d1c35690dab2e75db76f357a222878ced1fb6229418bcc912db25469f6893d841701fd4e5b645a2d1
-Section: 插件
-Description: nice插件依赖组件.
-Name: NiceHelper【Roothide】
 Author: niceios
 Sponsor: niceios
 
