@@ -1,3 +1,26 @@
+Package: com.0xkuj.blockwaupdates
+Architecture: iphoneos-arm64e
+Version: 1.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.0xkuj.blockwaupdates_1.1_iphoneos-arm64e.deb
+Size: 4532
+MD5sum: 554c56cac0bbea6a528b021374d99ebe
+SHA1: 9f097742d0ce8eff35a3da46ce73f36587ceffbd
+SHA256: 5003008ad09923b424ef229550117fdf549743799149a21e2bc3d5e105fc661d
+SHA512: 9bc69424a4164b701f4b3f0e673d4be19b39a24a2681809ec01752e466d4cc20def3fb44ee385bfe5154a50e8fab6778f424a668cffed579006a0e33b7150e9f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blockwaupdatesDp
+Description: Blocks Whatsapp message saying you must update
+Tag: purpose::extension
+Author: 0xkuj <kujmank@gmail.com>
+Name: Block WA Updates
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blockwaupdatesDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: 0xkuj
+
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.2.1
