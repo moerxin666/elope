@@ -9,8 +9,8 @@ Description: Elope
 Support: https://moerxin666.github.io/elope/
 Icon: https://moerxin666.github.io/elope/CydiaIcon.png
 MD5Sum:
- 860864944259db4d2fe5e1ca0453c5e4  27377 Packages
- 8dcc22eea11e7a54efdc0043e8d8c183  11566 Packages.gz
+ 861dd5dd0e9ea5a26086ca508ec030aa  28309 Packages
+ 0e28db8c3029b93db82d4a49771a393f  12025 Packages.gz
 SHA256:
- 87920752533996c593f4ed04a49601c34964eead7edf008d6e188534a95dba11  27377 Packages
- b82ed9f7bf1ca0e294fe1a4a9068bdeb5b35ef76be4e67dcdcfa9439cbc5f22d  11566 Packages.gz
+ e7492aec8d7e8cfff0975ec4f9bbfd056a97b762a32172750bd624d0db8f13a8  28309 Packages
+ 9688de45ddfc676029cbbdca1d0e91aaf8bb9eac19572527f8dcf7c87742bbe8  12025 Packages.gz

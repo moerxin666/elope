@@ -204,6 +204,23 @@ Description: 整理设置首页，集中收纳越狱插件；支持iOS15-26.0.1�
 Name: PrefNest(RootHide)
 Author: mlgm
 
+Package: com.dao.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-15
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Replaces: org.coolstar.sileo
+Filename: debs/Sileo_RootHide_2.5.1-15.deb
+Size: 3007044
+MD5sum: 5af78982ca71f7a59a5a177bed40d6a7
+SHA1: 60b130019ab1f8e6d18eb4fa3799823f9165a18a
+SHA256: bf91b95e2dc7ae5dcdf9e09ace54d34348d670049c659325238439695c628d16
+SHA512: 8bd76a0ed4926a9c936a7ff62d2341a134dec524aa5105a73ce09c6bf6e9e94422d865ef322a1dc5dc0c773eabee4220d35bdb29a6995992a77e790f88b3fe74
+Section: 插件
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)，可识别刀刀源内的 RootHidePatcher 中文版，也识别 UmbraPatcher，转换插件一条龙。
+Name: Sileo(RootHide)
+Author: Amy While
+
 Package: com.dao.sugarcane
 Architecture: iphoneos-arm64e
 Version: 1.3
