@@ -36,6 +36,23 @@ Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
 
+Package: com.roothide.patchloader
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Section: System
+Maintainer: roothide
+Installed-Size: 132
+Filename: debs/com.roothide.patchloader_0.0.8_iphoneos-arm64e.deb
+Size: 3930
+MD5sum: 50811beb07159320a3606de37b4604dc
+SHA1: a5e692536cf006f32a80be98131c546047405643
+SHA256: ed3d0c2e72865e70166752d8508006a9a32b4d76407fb838a2c485d5e6613d3a
+SHA512: 6c9a305bff836dc4bf686472425bf634af88eb62c9cd0c6131ed74982987c3c584d3aafee44cb87baddbd82f8ce95a805b7e12b8ea6735a831c7aa4905fef729
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Name: PatchLoader
+Author: roothide
+
 Package: eg.anubistweaks.translux
 Architecture: iphoneos-arm64e
 Version: 1.6
@@ -78,4 +95,21 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
+
+Package: rootless-compat
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Section: RootHide Patches
+Maintainer: roothide
+Installed-Size: 300
+Depends: com.roothide.patchloader(>= 0.0.4)
+Filename: debs/rootless-compat_2.0.1_iphoneos-arm64e.deb
+Size: 42110
+MD5sum: 61b06ff7e409d2eebef5e34fe28be38d
+SHA1: 1cbd3ff9fe3ab966b99eec7fdc08bc48596ae6b3
+SHA256: d255796e2fc7cd1b849cd376414e7a62bb0a2c7d149115b344e00f422371298d
+SHA512: b991c042024e37a5d8d119dd6e6a8707a7f126675a097ae59ccc5098b8ae189ffa3165178c8fe292917ea33a12eeda09a81cc620c24cec2704acedb0c92409b3
+Description: Compat Layer for Rootless Tweaks
+Name: rootless-compat
+Author: roothide
 
