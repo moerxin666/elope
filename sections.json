@@ -1,11 +1,6 @@
 {
   "sections": [
     {
-      "name": "插件",
-      "orig": "",
-      "pkgs": []
-    },
-    {
       "name": "依赖",
       "orig": "",
       "pkgs": [
