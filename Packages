@@ -17,6 +17,46 @@ Description: Pin screenshots on the screen.
 Name: Snapper 3
 Author: Jonathan Winger-lang
 
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64e.deb
+Size: 27902
+MD5sum: f1cfdb97679bc2b30b2918220ee9351f
+SHA1: 9eef53971a1a30e13cfc2adf3a18b655dd2d9eb2
+SHA256: 7d145977d3fbcd5030564dc429e18f7456c29f92020c36f32e61d4a82418f737
+SHA512: 47c2499b925b7f59bc54bc2c9e25190bf39ce55afd07ae3c75bf579b7ede5d66b0c17cacdd5e256a59670f08fc81475c0cbe4fa85649fc5a5ffa53522d39765d
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 1.3.13-2-15+debug
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 716
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/com.opa334.ccsupport_1.3.13-2-15_debug_iphoneos-arm64e.deb
+Size: 78138
+MD5sum: c08c9a3794e51d9d6ec64434f812b2ce
+SHA1: 5be2c804015f0c45ec4661e1e833165972b4b312
+SHA256: 51ff0060cb88235b1e098b8c5a550ed6280313ed29b42d5d4c809109b0e498bc
+SHA512: 44fc2e5a2af4edd54c881d379cff8c7e303743d4c935d1f48ae7b45bc5b7c4f49c581ff69c9f5f19ad28057b9e4518986d7dc79e106b9417cd7c61e160fd640e
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
 Package: com.opa334.crane
 Architecture: iphoneos-arm64e
 Version: 1.3.18-2
@@ -36,6 +76,24 @@ Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
 
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Version: 1.1.6-4
+Section: System
+Maintainer: opa334
+Installed-Size: 468
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64e.deb
+Size: 19562
+MD5sum: 288946aff58fc1d2a9ec4ab4da6b0d30
+SHA1: 30a1d53cf5f8095a5fa9eacf07707aaf1d213f63
+SHA256: 81a1eeb17480b6ee200f8f4bf815892e6f58cc55f5aea6d7abe899db11da4bb5
+SHA512: dbd735c4e97fe9cfed216d6d8bc6641391399723612f7c747f88c86b43a8c41eec7bae25964cf0e2c7c7775e3b7695f03ba2c96cbc2b7311a4c2e1c78d236252
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Author: opa334
+
 Package: com.roothide.patchloader
 Architecture: iphoneos-arm64e
 Version: 0.0.8
@@ -52,6 +110,25 @@ Description: RootHide Dynamic Patches Loader
 Tag: role::developer
 Name: PatchLoader
 Author: roothide
+
+Package: dev.theos.orion14
+Architecture: iphoneos-arm64e
+Version: 1.0.1-3+debug
+Section: System
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 1220
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.theos.orion14_1.0.1-3_debug_iphoneos-arm64e.deb
+Size: 181106
+MD5sum: 86b1f3a313d1d4f4bbf9aa50ce99c274
+SHA1: 0fb7e6b04357773e9c9250c7156a5fdc1b96f4fd
+SHA256: a2de49957df5c5211ffb7e522ee9e95c020c123979ff4faeb43c70e7c6607400
+SHA512: 6e0c1cfd425a4e4ceff08155a51d3ecf642c08e19a0772e2aa914173faace9f6d54c6106a902fa4db8067513a407f0d082dcdc7755e8cf4785dc79269eea0f93
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Name: Orion (iOS 14-17)
+Author: Theos Team <theos@kabiroberai.com>
 
 Package: eg.anubistweaks.translux
 Architecture: iphoneos-arm64e
@@ -112,4 +189,28 @@ SHA512: b991c042024e37a5d8d119dd6e6a8707a7f126675a097ae59ccc5098b8ae189ffa316517
 Description: Compat Layer for Rootless Tweaks
 Name: rootless-compat
 Author: roothide
+
+Package: ws.hbang.alderis
+Architecture: iphoneos-arm64e
+Version: 1.2.3-8+debug
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6016
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Filename: debs/ws.hbang.alderis_1.2.3-8_debug_iphoneos-arm64e.deb
+Size: 857360
+MD5sum: 163162fd0db44b348478d1973d8576ea
+SHA1: ee9d931f1a598cbcc57a4757bb939fa2edd07204
+SHA256: 23338feb0fa8f0adbdd3ae843df1d191e18bd9450ef1e813983584cf0f094575
+SHA512: 4e7b864f0c4c1ae6ffd54104eda1331809912d7b58a182cb3c4e4a59d008e1c885dbc49b7222dab29504f8258cf26ec58357762f4f18bece1ab09bc1dd8314f5
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Name: Alderis Color Picker
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+dev: hbang
 
