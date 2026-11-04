@@ -612,6 +612,24 @@ Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
 
+Package: com.rain.raincontainer
+Architecture: iphoneos-arm64e
+Version: 2.9.0-7+debug
+Maintainer: Rain
+Installed-Size: 1956
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.crane
+Filename: debs/com.rain.raincontainer_2.9.0-7_debug_iphoneos-arm64e.deb
+Size: 465092
+MD5sum: 62d9be1db2e06e3fe6376da3e680fd11
+SHA1: f6f1327abab0c26e3dbed27d1caec6864dab86c2
+SHA256: 473bb7d8f57c8d91a56643175170e6c5d29943fb6c43905f6813b98764390c2c
+SHA512: bca451eeafda1460e20be7134f1bec0002fb708aaa2db4b82f19b50418942424b5c573b4dcd5e7242a96ac37adc01d402cc67254182fddffa3eb19cf50fdbcf6
+Section: 插件
+Description: 基于 Crane 开发，感谢作者 opa334 编译开发的优秀插件；需安装原版的 Crane 即可生效
+Name: Rain的容器
+Author: Rain
+
 Package: com.skypain.ccresprings
 Architecture: iphoneos-arm64e
 Version: 2.0.0-1
