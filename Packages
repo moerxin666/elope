@@ -598,3 +598,22 @@ Author: ren7995 <lau7995ren@gmail.com>
 Name: Atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Depiction: https://chariz.com/get/atria
+
+Package: wiki.qaq.umbra
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 1564
+Depends: firmware (>= 15.0)
+Conflicts: com.roothide.manager
+Replaces: com.roothide.manager
+Filename: debs/wiki.qaq.umbra_2.2.3_iphoneos-arm64e.deb
+Size: 1060678
+MD5sum: 59203a509efdca6b2786518f917a35ca
+SHA1: d3126e3c317235ffd011543bb8d8004466db8755
+SHA256: b3d0c2437eea395843567e723b29757bd84f1b335861f39f11445bc80ba069e2
+SHA512: da63e41ae7d26b0158ad9035787df2458217e2c2d249a18d41900cd268819db486ca7be50a48b85f24eb4e85c32bd8270004205c4af9ad1b25e5e4e81ccff5ca
+Section: 插件
+Description: Hide custom firmware from apps in RootHide environments.
+Name: Umbra (RootHide Manager)
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
