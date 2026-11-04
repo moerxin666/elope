@@ -129,27 +129,6 @@ Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader
 
-Package: ellekit
-Architecture: iphoneos-arm64e
-Version: 1.2-3
-Priority: optional
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Breaks: com.opa334.libsandy (<= 1.1.6-3)
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: debs/ellekit_1.2-3_iphoneos-arm64e.deb
-Size: 127496
-MD5sum: 2473c5e45b18fbb060dce0d12e141431
-SHA1: 47c2d19c67ea5189d5d75e67083fdd475b6e6e97
-SHA256: 741d3ffd332290c12b06a28f12e79443132203876d5539c7dd92ad18ab6a14d3
-SHA512: 048178e2d5ce5eca290740ebb43abf8e85c25d076ccf28fea3171d9c525064e07a61a5e6342af2dd5619a94313b03f20e6ce3a74950465ea8cbe3910aa6bf536
-Section: Tweak Injection
-Description: ElleKit tweak injection libraries and loader
-Name: ElleKit
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-
 Package: cn.octoforce.squidextender
 Architecture: iphoneos-arm64
 Version: 3.7.4
@@ -346,69 +325,6 @@ Description: 微信插件管理器：接管原生插件页，提供插件注册/
 Name: 微信插件管理-Rootless
 Author: developer
 
-Package: cn.zqbb.fix120hz
-Architecture: iphoneos-arm64e
-Version: 3.3.3-6
-Maintainer: zqbb
-Installed-Size: 6284
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/cn.zqbb.fix120hz_3.3.3-6_iphoneos-arm64e.deb
-Size: 1826514
-MD5sum: 2f15f9b1d65b614877dbf35c3ea92a57
-SHA1: b7fbb1bbc6c64deb2874f290511506f558030273
-SHA256: 8aebd6fa1a441ffb24d24ae9935f1da1167fa7291e4cca75001b7faf25232af7
-SHA512: d6db002f2a7fd3110d9d8a342a02027a6fa30b31cacf12893aa8581dcd745e0706de9046893707cad10beb79a3c36c2f4f4d5ad3c491cc26450fa9e764c24eda
-Section: zqbb Tweaks
-Description:
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
-Name: Hello 120Hz
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
-
-Package: cn.zqbb.holdcpu
-Architecture: iphoneos-arm64e
-Version: 2.3.5-5
-Maintainer: zqbb
-Installed-Size: 3672
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
-Filename: debs/cn.zqbb.holdcpu_2.3.5-5_iphoneos-arm64e.deb
-Size: 1305230
-MD5sum: b75c116e907f4a82c204e5528a759fb1
-SHA1: 0d4aea4986f9c9250a08918a00da1ecd7e87a1b9
-SHA256: 8da1866839216c87a62b64e0547f97cc73f8016586570bf4295114172c51b8c7
-SHA512: 610ee9a4eaba3d917af58652cbf20f9f9144314a5ed2db9557066e26a9bbc327cf2c46d70dcb147715308da549be5bafd3a1fddd88a850086b44b4da6e98918a
-Section: zqbb Tweaks
-Description: (解除温控) (锁定低电量CPU频率)
-Name: Hello CPU
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
-
-Package: cn.zqbb.stopautolaunchapps
-Architecture: iphoneos-arm64e
-Version: 2.5
-Maintainer: zqbb
-Installed-Size: 1120
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
-Conflicts: zp.stopautolaunchapps
-Filename: debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
-Size: 254952
-MD5sum: 10ecfd412cf9df7f3d643bc574f4a3f2
-SHA1: 2ec33e856e953fcde5347dc9eb831e03acee04ec
-SHA256: 0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa
-SHA512: 6560c86a53a9a8b2af091ff0cd692249387cf86aee10ecdc50857c35a04771939d0ff320e6cf4cf716ab903ecadf0f154002958b0e243c4b36f84855921718c7
-Section: zqbb Tweaks
-Description: 别在后台热加载app咯! 
- - 优点:节约内存,少杀后台.
-Author: zqbb
-Name: Hello 3Q
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
-
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64e
 Version: 1.6.0-6
@@ -446,32 +362,73 @@ MD5sum: 314230e4c1cb0c9c7f7a4e7dfc558922
 SHA1: a23a997b3dd55d85234c71ac4f66c07366249976
 SHA256: 34e52f97991e2c7f12a6fa2f80ef69ce01785b97bbafa5fdb559e8e7e791525e
 SHA512: e71c7c7c5dc4b7610fb187677c47c46b0637d6763eab7e1952d7b6319d16520bb3c06234b638ca3a93f2d2028ea0a8837331ab77afd95304fe9252e5b3ce73ae
-Section: 嗨-工具
+Section: 插件
 Description: 整理设置首页，集中收纳越狱插件；支持iOS15-26.0.1，特别是iOS18+默认插件入口在设置的通用里，用这个可以归纳到设置顶部/底部。
 Name: PrefNest(RootHide)
 Author: mlgm
 
-Package: com.skypain.ccresprings
+Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
-Version: 2.0.0-1
-Maintainer: Mr.Zhang
-Installed-Size: 192
-Depends: com.opa334.ccsupport
-Conflicts: com.skypain.ccrespring
-Filename: debs/com.skypain.ccresprings_2.0.0-1_iphoneos-arm64e.deb
-Size: 19216
-MD5sum: b278a6209aa4405f57f66aa005444389
-SHA1: b12ce8d61bdfa6d250246091f3eb7a74db946cfa
-SHA256: 96b372caf1d6e64ef60652a7ffa81b57c8ad0924985e6642097e9dc4a14576e6
-SHA512: fe2aaa5ad24f9f7626d6ad9adb31c6cc2f0b3566b57195afe030b59216a27d011897db192089ab37d099d5e2b695456cdab9e3d9bc6c2578ec6e673b80146ba6
-Section: 控制中心
-Description: 控制中心注销模块
- * 单击注销
- * 长按打开其他功能选项
-Name: CCRespring 注销模块
-Author: Mr.Zhang
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/CCRespring/js.json
-Icon: https://TrollStoreX.Github.io/sileodepiction/CCRespring/icon.png
+Version: 3.3.3-6
+Maintainer: zqbb
+Installed-Size: 6284
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz_3.3.3-6_iphoneos-arm64e.deb
+Size: 1826514
+MD5sum: 2f15f9b1d65b614877dbf35c3ea92a57
+SHA1: b7fbb1bbc6c64deb2874f290511506f558030273
+SHA256: 8aebd6fa1a441ffb24d24ae9935f1da1167fa7291e4cca75001b7faf25232af7
+SHA512: d6db002f2a7fd3110d9d8a342a02027a6fa30b31cacf12893aa8581dcd745e0706de9046893707cad10beb79a3c36c2f4f4d5ad3c491cc26450fa9e764c24eda
+Section: 插件
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64e
+Version: 2.3.5-5
+Maintainer: zqbb
+Installed-Size: 3672
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/cn.zqbb.holdcpu_2.3.5-5_iphoneos-arm64e.deb
+Size: 1305230
+MD5sum: b75c116e907f4a82c204e5528a759fb1
+SHA1: 0d4aea4986f9c9250a08918a00da1ecd7e87a1b9
+SHA256: 8da1866839216c87a62b64e0547f97cc73f8016586570bf4295114172c51b8c7
+SHA512: 610ee9a4eaba3d917af58652cbf20f9f9144314a5ed2db9557066e26a9bbc327cf2c46d70dcb147715308da549be5bafd3a1fddd88a850086b44b4da6e98918a
+Section: 插件
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 2.5
+Maintainer: zqbb
+Installed-Size: 1120
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
+Size: 254952
+MD5sum: 10ecfd412cf9df7f3d643bc574f4a3f2
+SHA1: 2ec33e856e953fcde5347dc9eb831e03acee04ec
+SHA256: 0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa
+SHA512: 6560c86a53a9a8b2af091ff0cd692249387cf86aee10ecdc50857c35a04771939d0ff320e6cf4cf716ab903ecadf0f154002958b0e243c4b36f84855921718c7
+Section: 插件
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台.
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
 Package: com.axs.duostatus
 Architecture: iphoneos-arm64e
@@ -498,6 +455,49 @@ Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
+Package: com.skypain.ccresprings
+Architecture: iphoneos-arm64e
+Version: 2.0.0-1
+Maintainer: Mr.Zhang
+Installed-Size: 192
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccrespring
+Filename: debs/com.skypain.ccresprings_2.0.0-1_iphoneos-arm64e.deb
+Size: 19216
+MD5sum: b278a6209aa4405f57f66aa005444389
+SHA1: b12ce8d61bdfa6d250246091f3eb7a74db946cfa
+SHA256: 96b372caf1d6e64ef60652a7ffa81b57c8ad0924985e6642097e9dc4a14576e6
+SHA512: fe2aaa5ad24f9f7626d6ad9adb31c6cc2f0b3566b57195afe030b59216a27d011897db192089ab37d099d5e2b695456cdab9e3d9bc6c2578ec6e673b80146ba6
+Section: 插件
+Description: 控制中心注销模块
+ * 单击注销
+ * 长按打开其他功能选项
+Name: CCRespring 注销模块
+Author: Mr.Zhang
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/CCRespring/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/CCRespring/icon.png
+
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2-3
+Priority: optional
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: debs/ellekit_1.2-3_iphoneos-arm64e.deb
+Size: 127496
+MD5sum: 2473c5e45b18fbb060dce0d12e141431
+SHA1: 47c2d19c67ea5189d5d75e67083fdd475b6e6e97
+SHA256: 741d3ffd332290c12b06a28f12e79443132203876d5539c7dd92ad18ab6a14d3
+SHA512: 048178e2d5ce5eca290740ebb43abf8e85c25d076ccf28fea3171d9c525064e07a61a5e6342af2dd5619a94313b03f20e6ce3a74950465ea8cbe3910aa6bf536
+Section: 插件
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
 
 Package: com.HBWechatHelper.ailun
 Architecture: iphoneos-arm64e
