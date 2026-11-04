@@ -574,6 +574,24 @@ Author: Mr.Zhang
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/CCRespring/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/CCRespring/icon.png
 
+Package: com.yourepo.axs.screencore
+Architecture: iphoneos-arm64e
+Version: 1.0.6-1
+Maintainer: 王云龙 <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.yourepo.axs.screencore_1.0.6-1_iphoneos-arm64e.deb
+Size: 1000150
+MD5sum: 6c8af551539bc6855a9aa209c7dee0d7
+SHA1: 8e85abf929e1408ab4224e6604a23e65c1ea158f
+SHA256: 9335e7c61d0a17409e4122a29fede0c4f679d48881c14e205db48fd2f75a0338
+SHA512: e8b548ed4279ebbfa52e48dd31784196931881ee735c938f50b091b66328df9c10b9d1880cb56d4959aa55f1f08bd3d353af40b349be0d99b0d5c58c1f64e24a
+Section: 插件
+Description: 这是王云龙抄袭的分屏
+Name: ScreenCore
+Author: 王云龙 <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/screencore.png
+
 Package: cum.wkk.hidevpn
 Architecture: iphoneos-arm64e
 Version: 1.1
