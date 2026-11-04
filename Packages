@@ -189,18 +189,19 @@ Name: PrefNest(RootHide)
 Author: mlgm
 
 Package: cn.octoforce.squidextender
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 3.7.4
 Maintainer: SquidForce, Backup
 Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: com.squidforce.squidextender
-Filename: debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64.deb
-Size: 2285264
-MD5sum: c221fff63e0da2f5f1bcb13ceaf5ff08
-SHA1: cadc9571737befc2d31f263a6369c2c0d2e5ca36
-SHA256: ab4654bb32b7d36b8fa8a4fe0285b351c918dff2f90b9f9e8f94289b8e1bcb49
-SHA512: 438e67d7dd2600c4f2fbb973eb0ec5bd2ada72a1fcd3383708a639d69e39ba86261a333d20c00f80deec88c56fa164b9622743b65c9f878388950c7db5873b35
+Filename: debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 6854390
+MD5sum: b8a762660bc9e35b5f2b244a4216a296
+SHA1: b32fa9b5979d58491ea668b73ebd6550e73ae03a
+SHA256: fe243b7eb3a9a4bc9d12f7b539201bfc35eb107797bdbdbfc3e3823ea1b31d37
+SHA512: 31d313c3231cad0abec09b122216de171eab656bf08c434452e43b8931d9a05a492c345c112db47be1e1bd1e3ae8539f0d7979b71a5b9bc715daacb69ce781fa
 Section: 插件
 Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
 Name: SquidExtender(激活码版)
