@@ -333,6 +333,28 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blockwaupd
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: 0xkuj
 
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64
+Version: 5.2.0-8
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.axs.zzfilter_5.2.0-8_iphoneos-arm64.deb
+Size: 63778
+MD5sum: 392a4d7a772fd251206f2fabd853c3f5
+SHA1: 978f82fd672bb85c3e151567387cab4866f4db70
+SHA256: 2a646a8a325d06950b936af43eff2a7df1450afc86843675fd51a091aebdffe8
+SHA512: 55326a28d86d8892fa36e0b4d57f6544948c310d609ec8577303dcf9f33e9d22c9de20360e32d38f1ad2effb781fe5ce352f69932c83e2a9e93f3544348307d0
+Section: 插件
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: ZZFilter
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
+
 Package: com.iosdump.appdata
 Architecture: iphoneos-arm64e
 Version: 2.7.5
