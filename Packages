@@ -58,3 +58,24 @@ Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://raw.g
 SileoDepiction: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/json/translux/translux.json
 Icon: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/icons/translux/icon.png
 
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2-3
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: debs/ellekit_1.2-3_iphoneos-arm64e.deb
+Size: 127496
+MD5sum: 2473c5e45b18fbb060dce0d12e141431
+SHA1: 47c2d19c67ea5189d5d75e67083fdd475b6e6e97
+SHA256: 741d3ffd332290c12b06a28f12e79443132203876d5539c7dd92ad18ab6a14d3
+SHA512: 048178e2d5ce5eca290740ebb43abf8e85c25d076ccf28fea3171d9c525064e07a61a5e6342af2dd5619a94313b03f20e6ce3a74950465ea8cbe3910aa6bf536
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
