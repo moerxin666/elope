@@ -80,6 +80,25 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blockwaupd
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: 0xkuj
 
+Package: com.iosdump.appdata
+Architecture: iphoneos-arm64e
+Version: 2.7.5
+Section: Tweaks
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/com.iosdump.appdata_2.7.5_iphoneos-arm64e.deb
+Size: 3950972
+MD5sum: 40ddc81b1b68b6986a140249a548e1a3
+SHA1: 09309a4237d83460527eb8a34bcf08a48044fe9c
+SHA256: 422c963b9ed8535459b0b3c49b44a9e0708e6e3eb0007e76c361ef79364c6b0a
+SHA512: 13701fa2a15bf40ce48dc30371f0e9bac6f2680e479b776e05091b1a5eafed0a9e70b2bab3393d56ca4b47ea817e75480014c968ca4aa3d9f661c17eadc3f21b
+Description: 在主屏幕查看应用数据与管理应用
+Name: AppData
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+
 Package: com.jontelang.snapper3
 Architecture: iphoneos-arm64e
 Version: 1.2.1
