@@ -1,0 +1,16 @@
+Origin: Elope
+Label: Elope
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Elope
+Support: https://moerxin666.github.io/elope/
+Icon: https://moerxin666.github.io/elope/CydiaIcon.png
+MD5Sum:
+ 92d962d2d67a1ab94e3f040fca143c46  798 Packages
+ c780709b0d29d7d4951dfdd433863914  529 Packages.gz
+SHA256:
+ 8c3f789b1cf99ca014d91eaecd3cb44a709673c84bd268fc755b49227193d8b1  798 Packages
+ f3bf68c5558f2a0900585fe794d574ec4f9b8dac377d646e726c555210f5e3cf  529 Packages.gz

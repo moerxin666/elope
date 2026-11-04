@@ -1,0 +1,19 @@
+Package: com.jontelang.snapper3
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 2269904
+MD5sum: 8b4366fe1323c063a6c40c68c7ddccb7
+SHA1: 28026f7a823ad6c9bca6c68d86a38d95644e3dc8
+SHA256: 81cfa0485f86d50f897ef5a319ca85495e37c97b9034bf4d30ed501e85b685bc
+SHA512: 0429cc48e8b1be2332d528757f64bce4f7ecea73895f53960f98f25e2af3b5383b86340653c82bb34c0fb9e9f3dd54435bbde2bbbd4e6eb2e29f53f8f5e9dfd6
+Description: Pin screenshots on the screen.
+Name: Snapper 3
+Author: Jonathan Winger-lang
+
