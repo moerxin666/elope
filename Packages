@@ -599,6 +599,27 @@ Name: Atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Depiction: https://chariz.com/get/atria
 
+Package: wiki.qaq.umbra.patcher
+Architecture: iphoneos-arm64e
+Version: 3.0-2
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), bash, coreutils, findutils, grep, sed, libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: debs/wiki.qaq.umbra.patcher_3.0-2_iphoneos-arm64e.deb
+Size: 882202
+MD5sum: 98eba5ce5e44683b9d308f0a87d1f589
+SHA1: d3e6e3aad134bac31287a7f19f018aec7cf7ee37
+SHA256: 5d82e5d51e75f653412ecf0a8a255f4f73c8257c32d3f428d21eb633705eabe4
+SHA512: 295b8098b3ab5800c2a87e2a4eaeb5d1134fe99d3924a2ddc40687403072089ea9966b471f911abd2ad86fec73460087bec44805b82792442ab0aecac77125a0
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Section: 插件
+Description: Convert supported tweak packages for RootHide custom firmware.
+Name: Umbra Patcher
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
+
 Package: wiki.qaq.umbra
 Architecture: iphoneos-arm64e
 Version: 2.2.3
