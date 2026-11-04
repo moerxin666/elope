@@ -439,3 +439,20 @@ Description: 微信插件管理器：接管原生插件页，提供插件注册/
 Name: 微信插件管理-Rootless
 Author: developer
 
+Package: com.HBWechatHelper.ailun
+Architecture: iphoneos-arm64e
+Version: 2.1.8
+Section: Mao
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/黄白助手2.1-8_隐根.deb
+Size: 17546586
+MD5sum: 5cfb43ffda734801ee73ba14d98bd3c1
+SHA1: 1f088187182d101d64077b1a4ba109d3f58cca5c
+SHA256: 4eaf3306c3129a97f8b8dea890ace180a116090a08b794f070e507f35b73950e
+SHA512: 423049fc80da48a5a412db80695e3c3cf4b6c78f5af79da39f00dbcdee56ac6777c242e6540265b2513076dac21c5cbf16f33577a3a7414bbe0fa2f899dd924b
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)-Rootless
+Author: HuangBai <QQ:1343309363@qq.com>
+
