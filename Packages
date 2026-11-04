@@ -40,6 +40,32 @@ Description: Pin screenshots on the screen.
 Name: Snapper 3
 Author: Jonathan Winger-lang
 
+Package: com.axs.duostatus
+Architecture: iphoneos-arm64e
+Version: 5.2.0-119
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 552
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.mo.duostatus_5.2.0-119_iphoneos-arm64e.deb
+Size: 92672
+MD5sum: d594f9247329f4d62f696ae5a9ba7fae
+SHA1: d9a5fa03e0a22a3d5cbe3c8d491894e93a1c6035
+SHA256: cb965b4ddca6f2aa7e6b87d62d58ce4ae9ca036878f1ee2adc8e87e3898b8542
+SHA512: 7cf554c2c4b94af361d95fe5328ae7992efcf2e613cdf1a400513d5fdf4c371c42fb7d16c351738fc31029746a364595da67375eca0fb4c93933710d6d803092
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
+ * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
+ * 5. 支持ios15.0~17.3.1系统
+ * 6. 兼容电话助手
+Name: DuoStatus
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64e
 Version: 1.6.0-6
