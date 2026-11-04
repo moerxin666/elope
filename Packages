@@ -555,6 +555,24 @@ Author: Mr.Zhang
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/CCRespring/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/CCRespring/icon.png
 
+Package: cum.wkk.hidevpn
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: wkk
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/cum.mo.hidevpn_1.1_iphoneos-arm64e.deb
+Size: 4816
+MD5sum: 835e1717d0c7427774f6efea7cb670f8
+SHA1: 0c1922846fae0eb783bfea34cb7a6ebd57d1f1b4
+SHA256: 3e3eb9b96495452002e299c1138da9301e87b380643f9448b107ba7991286d42
+SHA512: 44f68d5a3a58a49c4f0754e724836755b49a8cd0d7fc4b93980c6f27888b6e17b93798224ef7d5a0773ee8985043ee59e7f06608b80a1499d0ef3b2c04f943b5
+Section: 插件
+Description: 隐藏状态栏一切vpn展示。
+Name: Hidevpn
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/27/b15bc0d82eb3578fcc1afab7a9d2b991.png
+
 Package: eg.anubistweaks.translux
 Architecture: iphoneos-arm64e
 Version: 1.6
