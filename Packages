@@ -36,3 +36,25 @@ Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
 
+Package: eg.anubistweaks.translux
+Architecture: iphoneos-arm64e
+Version: 1.6
+Section: Tweaks
+Maintainer: AnubisTweaks
+Installed-Size: 7296
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: debs/eg.anubistweaks.translux_1.6_iphoneos-arm64e.deb
+Size: 6211072
+MD5sum: e57fe42ef94a409bb2f5f83479b71096
+SHA1: b9057f5cf59d7e99bdc95cfcf322273324bb1bee
+SHA256: 975f0d27cedfc129ec1a4e54c215c58897ff8d95cfeea68ae00877ee73f17682
+SHA512: 859e9959efa8e9b096259877718f21746bfce26cf4e3c2bd2cdece49fbdfd83736ca718758357ec09353122853833e8e5a036b90e5757e22356f11c66f3cfc52
+Homepage: https://github.com/AnubisTweaks
+Description: Advanced translation integration for iOS with OCR support. Adds translation buttons to text selection menus across all apps. Includes Snapper 3 integration for image OCR and translation. Supports Google, Baidu, ModernMT, Microsoft translation engines and Youdao, Yandex OCR engines. Features customizable UI, app whitelist.
+Name: TransLux
+Author: AnubisTweaks
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/json/translux/translux.json&name=TransLux&dev=AnubisTweaks
+SileoDepiction: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/json/translux/translux.json
+Icon: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/icons/translux/icon.png
+
