@@ -1,34 +1,24 @@
 {
   "sections": [
     {
-      "name": "Development",
-      "orig": "Development",
-      "pkgs": []
-    },
-    {
-      "name": "RootHide Patches",
-      "orig": "RootHide Patches",
-      "pkgs": []
-    },
-    {
-      "name": "System",
-      "orig": "System",
-      "pkgs": []
-    },
-    {
-      "name": "Tweaks",
-      "orig": "Tweaks",
-      "pkgs": []
-    },
-    {
-      "name": "分屏插件",
-      "orig": "分屏插件",
-      "pkgs": []
-    },
-    {
       "name": "插件",
       "orig": "",
       "pkgs": []
+    },
+    {
+      "name": "依赖",
+      "orig": "",
+      "pkgs": [
+        "ws.hbang.alderis",
+        "rootless-compat",
+        "com.opa334.altlist",
+        "com.opa334.libsandy",
+        "com.roothide.patchloader",
+        "dev.theos.orion14",
+        "preferenceloader",
+        "com.opa334.ccsupport",
+        "ellekit"
+      ]
     }
   ]
 }
