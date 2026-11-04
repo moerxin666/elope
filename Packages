@@ -57,6 +57,66 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64e
+Version: 2.3.5-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 3672
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/cn.zqbb.holdcpu_2.3.5-5_iphoneos-arm64e.deb
+Size: 1305230
+MD5sum: b75c116e907f4a82c204e5528a759fb1
+SHA1: 0d4aea4986f9c9250a08918a00da1ecd7e87a1b9
+SHA256: 8da1866839216c87a62b64e0547f97cc73f8016586570bf4295114172c51b8c7
+SHA512: 610ee9a4eaba3d917af58652cbf20f9f9144314a5ed2db9557066e26a9bbc327cf2c46d70dcb147715308da549be5bafd3a1fddd88a850086b44b4da6e98918a
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: cn.zqbb.orzfolder
+Architecture: iphoneos-arm64e
+Version: 1.6.1-3
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 4148
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/cn.zqbb.orzfolder_1.6.1-3_iphoneos-arm64e.deb
+Size: 1634652
+MD5sum: d99107c047d533aa3f2638e5cb8fc827
+SHA1: 57e0beb81d3d8c7074cb6f0efb6c776d58bc26b2
+SHA256: a965b6bad5543d9246b618341e794db3f776e13b6ff08b7e4204114c62a3b2b1
+SHA512: 2b931136bb90a62dc497602265c78d75ba91e0b71b3b02502e89257cb408b3003cdee9e8226b24ed7becd8794a4b7b6a70f0720dddbb8c3cac51d64f726e01ad
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Name: Hello Folder
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
+
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 2.5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1120
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
+Size: 254952
+MD5sum: 10ecfd412cf9df7f3d643bc574f4a3f2
+SHA1: 2ec33e856e953fcde5347dc9eb831e03acee04ec
+SHA256: 0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa
+SHA512: 6560c86a53a9a8b2af091ff0cd692249387cf86aee10ecdc50857c35a04771939d0ff320e6cf4cf716ab903ecadf0f154002958b0e243c4b36f84855921718c7
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台.
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
 Package: com.0xkuj.blockwaupdates
 Architecture: iphoneos-arm64e
 Version: 1.1
