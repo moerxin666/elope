@@ -171,6 +171,22 @@ Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Support: https://hashbang.productions/support/
 dev: hbang
 
+Package: com.hk.atria.cn.rl
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/Atria_简体中文包_RootHide.deb
+Size: 8720
+MD5sum: 0e7acbded73e79e64a3442ed2c6af4ed
+SHA1: 6421e5a3497b48999d26a6a210516184d4f27831
+SHA256: b42936db14a14fee832ce533979311220e01e3272d4972b99b73dfcd4a4c1ac2
+SHA512: 5322439d11ca6c0fc54bb506fb04a3c2e351f63aa93fb573233e7333dfb2811027972b7877fd810db08105054b813a83dea59359244620a95ee6683d54a42f2e
+Section: 插件
+Description: Atria 简体中文包(RootHide)。
+Name:  Atria 简体中文包(RootHide)
+Author: Alucard/妖刀
+
 Package: com.dao.prefnest
 Architecture: iphoneos-arm64e
 Version: 1.2.3
