@@ -405,6 +405,22 @@ Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Support: https://hashbang.productions/support/
 dev: hbang
 
+Package: com.tencent.themebox
+Architecture: iphoneos-arm64e
+Version: 3.0.7
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/主题盒子3.0.7_roothide（隐根）.deb
+Size: 9707848
+MD5sum: 8deea4031ac82cb9491a0db37f613ed4
+SHA1: 1dca3744c75be5725996ab8454eb829ebb548407
+SHA256: 82d0027a40e9efb912705988ecc4b4d1acb5570542cf1ccd2ed16d9fdc639571
+SHA512: fd626b9b049460546e5a9c768d417a70c06f41ba0a96208cf77f73e0a7fe80405c16944ccc1860884cb3d151db91d9b00bf53a8e8009d109006bbbf0b5719323
+Description: 微信主题盒子
+Name: 主题盒子
+Author: Mao
+
 Package: com.25mao.wcplugins.rootless
 Architecture: iphoneos-arm64e
 Version: 1.0.9
