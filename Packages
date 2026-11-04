@@ -1,3 +1,20 @@
+Package: com.dao.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Section: 嗨-工具
+Maintainer: mlgm
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Conflicts: com.mlgm.prefnest
+Filename: debs/PrefNest_RootHide_1.2.3.deb
+Size: 171748
+MD5sum: 314230e4c1cb0c9c7f7a4e7dfc558922
+SHA1: a23a997b3dd55d85234c71ac4f66c07366249976
+SHA256: 34e52f97991e2c7f12a6fa2f80ef69ce01785b97bbafa5fdb559e8e7e791525e
+SHA512: e71c7c7c5dc4b7610fb187677c47c46b0637d6763eab7e1952d7b6319d16520bb3c06234b638ca3a93f2d2028ea0a8837331ab77afd95304fe9252e5b3ce73ae
+Description: 整理设置首页，集中收纳越狱插件；支持iOS15-26.0.1，特别是iOS18+默认插件入口在设置的通用里，用这个可以归纳到设置顶部/底部。
+Name: PrefNest(RootHide)
+Author: mlgm
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-6
