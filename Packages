@@ -1,3 +1,26 @@
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-6
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 6284
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz_3.3.3-6_iphoneos-arm64e.deb
+Size: 1826514
+MD5sum: 2f15f9b1d65b614877dbf35c3ea92a57
+SHA1: b7fbb1bbc6c64deb2874f290511506f558030273
+SHA256: 8aebd6fa1a441ffb24d24ae9935f1da1167fa7291e4cca75001b7faf25232af7
+SHA512: d6db002f2a7fd3110d9d8a342a02027a6fa30b31cacf12893aa8581dcd745e0706de9046893707cad10beb79a3c36c2f4f4d5ad3c491cc26450fa9e764c24eda
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
 Package: com.0xkuj.blockwaupdates
 Architecture: iphoneos-arm64e
 Version: 1.1
