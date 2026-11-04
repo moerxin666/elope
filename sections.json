@@ -9,15 +9,16 @@
       "name": "依赖",
       "orig": "",
       "pkgs": [
-        "ws.hbang.alderis",
-        "rootless-compat",
         "com.opa334.altlist",
+        "com.opa334.ccsupport",
         "com.opa334.libsandy",
         "com.roothide.patchloader",
         "dev.theos.orion14",
+        "ellekit",
         "preferenceloader",
-        "com.opa334.ccsupport",
-        "ellekit"
+        "rootless-compat",
+        "ws.hbang.alderis",
+        "com.niceios.nicehelper-roothide"
       ]
     }
   ]
