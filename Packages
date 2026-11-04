@@ -198,6 +198,23 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.2.8
+Section: System
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.8_iphoneos-arm64e.deb
+Size: 15816
+MD5sum: 621ec4c3191efae712a22fcd72233690
+SHA1: e691ab207e6a9af4a432af3e53432d83e94d72a7
+SHA256: 3c9cbbd49afea965457d8be48245df1c798270042482b6281476e0534163a4eb
+SHA512: bfc1a40c8d30c333f4427b13c61118b117742aa3b98d9661fca93ab0aa6ca77d4594271f57872f0d5ec5537143ec938ae8c4449b54b6d37e0cb0c0f2e191fdb6
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
 Package: rootless-compat
 Architecture: iphoneos-arm64e
 Version: 2.0.1
