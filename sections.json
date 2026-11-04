@@ -1,0 +1,68 @@
+{
+  "sections": [
+    {
+      "name": "Axs-Tweaks",
+      "orig": "Axs-Tweaks",
+      "pkgs": [
+        "-com.axs.duostatus"
+      ]
+    },
+    {
+      "name": "Development",
+      "orig": "Development",
+      "pkgs": []
+    },
+    {
+      "name": "Mao",
+      "orig": "Mao",
+      "pkgs": [
+        "-com.HBWechatHelper.ailun"
+      ]
+    },
+    {
+      "name": "RootHide Patches",
+      "orig": "RootHide Patches",
+      "pkgs": []
+    },
+    {
+      "name": "System",
+      "orig": "System",
+      "pkgs": []
+    },
+    {
+      "name": "Tweak Injection",
+      "orig": "Tweak Injection",
+      "pkgs": []
+    },
+    {
+      "name": "Tweaks",
+      "orig": "Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "zqbb Tweaks",
+      "orig": "zqbb Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "分屏插件",
+      "orig": "分屏插件",
+      "pkgs": []
+    },
+    {
+      "name": "嗨-工具",
+      "orig": "嗨-工具",
+      "pkgs": []
+    },
+    {
+      "name": "控制中心",
+      "orig": "控制中心",
+      "pkgs": []
+    },
+    {
+      "name": "插件",
+      "orig": "",
+      "pkgs": []
+    }
+  ]
+}
