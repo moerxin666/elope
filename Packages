@@ -222,6 +222,25 @@ Description: 为iOS13～16的控制中心音量/亮度条添加数字百分比�
 Name: SugarCane 16(RootHide)
 Author: iOS Creatix, kasiimh1, p2kdev
 
+Package: com.dao.youtubereborn
+Architecture: iphoneos-arm64e
+Version: 4.2.6-2
+Maintainer: arichornlover & 妖刀
+Installed-Size: 24876
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiumplus, com.miro.uyou, com.ps.uyoucompat, com.ps.ytsystemappearance, com.yourepo.mohadu31.dzyoutube, com.lyvendia.ytspeed, com.miro.uyouimport, com.ichitaso.uyouplus, com.stem.deficient, com.ps.ytabconfig, com.ps.ytx, h.ryan.youtubereborn, com.hk.ryan.youtubereborn, com.hk.rootless.youtubereborn, com.hk.youtubereborn.cn.rl, com.hk.youtubereborn.cn
+Filename: debs/YTR_中文版_RootHide_4.2.6.deb
+Size: 9083310
+MD5sum: 2ac9783685a61e1447576269b593b8f9
+SHA1: 4096d5c1ce6164693282c48203731c79cafadccf
+SHA256: c8b6db222191ce1a3821dde2884bdcad53f6cf43167658862e40d7e5bb601c4b
+SHA512: e7caa8117b01bcda92ad8d90b91b9a9446a9005d7b1b753a39f11cbc6c8c16f5902997537c887d11ee7795617c4243d109c607a094ecc40da354444a654a8bf6
+Section: 插件
+Description: YouTube Reborn 中文版，根据开源，刀刀直接编译的中文版。油管高级自定义插件，可去广告、下载、画中画、改布局等。
+Name: YTR 中文版(RootHide)
+Author: Lillie & arichornlover
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ytr/js.json
+
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
