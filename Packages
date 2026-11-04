@@ -593,6 +593,41 @@ Author: be-huge
 Icon: https://axs66.github.io/pro/icon/svp.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 
+Package: com.niceios.nicebarx15-roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.3.0-2
+Maintainer: niceios
+Installed-Size: 13484
+Depends: mobilesubstrate,com.niceios.nicehelper-roothide(>=6.5),preferenceloader
+Filename: debs/com.niceios.nicebarx15-roothide_1.0.3.0-2_iphoneos-arm64e.deb
+Size: 3934474
+MD5sum: 8f61c4550f9ad0c2222b69ba2048c8ed
+SHA1: 3b3bc08d1d3b427b55e7f1aae724ba8b593e063a
+SHA256: 1c6c1a07f939f24bd11d13f0b7c5780671ae93db3ca64751706533cebefd2f5f
+SHA512: ba0a04682e24366045621cd760988aa9b09b33eaf653461c9ec78ca8c898368c635a42100c2b1f4f32ab3212b5327b6bbc6da17ee52bed8817724f55ee0ae2ee
+Section: 插件
+Description: 状态栏插件.
+Name: NiceBarX(iOS15)【Roothide】
+Author: niceios
+Sponsor: niceios
+
+Package: com.niceios.nicehelper-roothide
+Architecture: iphoneos-arm64e
+Version: 6.9-9
+Maintainer: niceios
+Installed-Size: 2540
+Filename: debs/com.niceios.nicehelper-roothide_6.9-9_iphoneos-arm64e.deb
+Size: 734740
+MD5sum: 011ff4cdd7857ed8bf6a7e88cc9886e4
+SHA1: 5940869a4d96ac85a0064f02d2dda3ae0e926a58
+SHA256: ccd38ca0ea8a0d1f94ab97ab261bfedf703f818b8cec4ac67f0b49d83af40ff4
+SHA512: 61b246daac71b41a84c316aed0f627fc1549d7d7e2b1b85d1c35690dab2e75db76f357a222878ced1fb6229418bcc912db25469f6893d841701fd4e5b645a2d1
+Section: 插件
+Description: nice插件依赖组件.
+Name: NiceHelper【Roothide】
+Author: niceios
+Sponsor: niceios
+
 Package: com.opa334.crane
 Architecture: iphoneos-arm64e
 Version: 1.3.18-2
