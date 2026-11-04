@@ -204,6 +204,24 @@ Description: 整理设置首页，集中收纳越狱插件；支持iOS15-26.0.1�
 Name: PrefNest(RootHide)
 Author: mlgm
 
+Package: com.dao.sugarcane
+Architecture: iphoneos-arm64e
+Version: 1.3
+Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
+Installed-Size: 168
+Depends: mobilesubstrate,firmware (>= 13.0)
+Conflicts: com.ioscreatix.sugarcane, com.hk.sugarcane13, com.daodao.sugarcane
+Filename: debs/SugarCane_16_RootHide.deb
+Size: 5858
+MD5sum: 61fd5812af64ade383d9ebdf08092b7e
+SHA1: 0fcd227f74c2eac13673a75bf53fbe2f2ab5d517
+SHA256: 13ac10769e6db17d869545cda5876ccba7cf645d4963aca7cb8ff496934b0ada
+SHA512: 2158a7d2d29432733854800533f86dba2178e8c3822c92a92b55e345548cf17b202f8b9e7b4c5ef715f17f6f0aeba3ffb5501ce6307560f00f081b16295e8c73
+Section: 插件
+Description: 为iOS13～16的控制中心音量/亮度条添加数字百分比，无设置。
+Name: SugarCane 16(RootHide)
+Author: iOS Creatix, kasiimh1, p2kdev
+
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
