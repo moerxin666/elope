@@ -405,3 +405,21 @@ Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Support: https://hashbang.productions/support/
 dev: hbang
 
+Package: com.25mao.wcplugins.rootless
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Section: Tweaks
+Maintainer: developer
+Installed-Size: 224
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ellekit (>= 1.0)
+Filename: debs/插件管理_1.0.9_隐根.deb
+Size: 59332
+MD5sum: 30f984f0070472cb0e144643f8e4b534
+SHA1: 055b1611e556424d9c8f606b2764f5d28ba4ba58
+SHA256: 14ebb837a10aa076a19329d768f6d6f5c8426f51c1300be4127bedd717494736
+SHA512: 9fbad3b79194cef93efc11d2b4c0bd352255467732d23d80820c47e71fb20a4f24aa4a6842189b5394829e2dea7aad49143e0dcee0f2b78ca5eda376291a7d29
+Description: 微信插件管理器：接管原生插件页，提供插件注册/列表/开关
+Name: 微信插件管理-Rootless
+Author: developer
+
