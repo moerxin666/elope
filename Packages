@@ -521,6 +521,24 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: com.dao.plamyuipro
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: Phuc Do & 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.phucdo.plampyuipro
+Filename: debs/com.dao.plamyuipro_1.0_iphoneos-arm64e.deb
+Size: 1507272
+MD5sum: 46734120c900276ae5e10bc3e57199cc
+SHA1: 4050f8765956bae1632c5ce4bb0409c5b06e34e5
+SHA256: 344ed7ec8eff3941e28b97be7d1905684cde899a9c1b9ba8b3617b9593cf411c
+SHA512: 6ee4aebc5eaa8089b4bf7261fea641d80d23dfdb3291af87a8af7b2b7fb046e1a1301d6a1043bffca754cde63e6827b212b0b6d2541a823b5e3db616b62369ed
+Section: 插件
+Description: 支持 iOS15/16 的控制中心美化工具，可修改原生模块的图标/效果，修改控制中心背景壁纸等。
+Name: PlampyUIPro(rootless)
+Author: Phuc Do
+
 Package: com.iosdump.appdata
 Architecture: iphoneos-arm64e
 Version: 2.7.5
