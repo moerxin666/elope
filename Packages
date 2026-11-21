@@ -499,6 +499,29 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.axs.zzfilter_5.2.0-8_iphoneos-arm64e.deb
+Size: 88360
+MD5sum: 3dcc58e14ff836cdfb3cc4ee2df729bd
+SHA1: 8971cf7ecb74437dd64f14c36d763e9e65b5a8f4
+SHA256: e0348ab8c6285f00b169c0589e8262feb3cbbce219989a230da459904726c89c
+SHA512: cd89816b1de5a73995d61229a023d15ba6a47b51cedd51fff63d7c3125fb134bb8f796db2e71127468b9f53fe6f85cf3221700fd0170a321fe552522220aef9e
+Section: 插件
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: ZZFilter
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
+
 Package: com.iosdump.appdata
 Architecture: iphoneos-arm64e
 Version: 2.7.5
